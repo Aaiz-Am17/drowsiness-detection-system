@@ -2,8 +2,8 @@
 
 A real-time drowsiness detection system built with Python, OpenCV, and Dlib. This application monitors a user's face via webcam to detect signs of fatigue, such as eye closure and yawning, and triggers an alarm to prevent accidents.
 
-[](https://opensource.org/licenses/MIT)
-[](https://www.python.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
 -----
 
@@ -31,10 +31,10 @@ The system processes video from a webcam frame by frame. For each frame, it perf
       * **Eye Aspect Ratio (EAR)**: This ratio is calculated to determine if the eyes are closed. The formula is:
 
         $$
-        $$$$EAR = \\frac{||p\_2 - p\_6|| + ||p\_3 - p\_5||}{2 \\cdot ||p\_1 - p\_4||}
-
+        EAR = \\frac{||p\_2 - p\_6|| + ||p\_3 - p\_5||}{2 \\cdot ||p\_1 - p\_4||}
         $$
-        $$$$A low EAR value that persists for a certain number of frames indicates drowsiness.
+
+        A low EAR value that persists for a certain number of frames indicates drowsiness.
 
       * **Mouth Aspect Ratio (MAR)**: This ratio is calculated to detect yawns. A high MAR value suggests a yawn.
 
@@ -43,8 +43,6 @@ The system processes video from a webcam frame by frame. For each frame, it perf
 -----
 
 ## 📂 Project Structure
-
-```
 drowsiness-detection-system/
 │
 ├── drowsiness_detector.py      # Core class for detection logic
@@ -58,7 +56,6 @@ drowsiness-detection-system/
 ├── .gitignore                  # Files to be ignored by Git
 │
 └── shape_predictor_68_face_landmarks.dat  # Pre-trained dlib model
-```
 
 -----
 
@@ -67,7 +64,7 @@ drowsiness-detection-system/
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/YOUR_USERNAME/drowsiness-detection-system.git
+    git clone https://github.com/Aaiz-Am17/drowsiness-detection-system.git
     cd drowsiness-detection-system
     ```
 
@@ -90,7 +87,7 @@ drowsiness-detection-system/
     > **Note**: `dlib` can be tricky to install. You may need to have `CMake` and a C++ compiler installed on your system first. For Windows, this means installing Visual Studio with C++ build tools.
 
 4.  **Download the Facial Landmark Predictor:**
-    Make sure the `shape_predictor_68_face_landmarks.dat` file is present in the root directory of the project. If not, you can download it from [dlib's official website](https://www.google.com/search?q=http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and extract it.
+    Make sure the `shape_predictor_68_face_landmarks.dat` file is present in the root directory of the project. If not, you can download it from [dlib's official website](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and extract it.
 
 -----
 
@@ -100,12 +97,8 @@ To run the application, execute the GUI script from your terminal:
 
 ```bash
 python drowsiness_gui.py
-```
 
-The system will start, open your webcam, and begin monitoring. To stop the program, you can either use the "Stop Detection" button in the GUI or press `q` while the video window is active.
+The system will start, open your webcam, and begin monitoring. To stop the program, you can either use the "Stop Detection" button in the GUI or press q while the video window is active.
 
------
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
