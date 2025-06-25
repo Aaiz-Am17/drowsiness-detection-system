@@ -1,9 +1,5 @@
 # drowsiness-detection-system
 
-\<p align="center"\>
-\<img src="image\_0eb5c4.png" alt="Project GUI Screenshot"/\>
-\</p\>
-
 A real-time drowsiness detection system built with Python, OpenCV, and Dlib. This application monitors a user's face via webcam to detect signs of fatigue, such as eye closure and yawning, and triggers an alarm to prevent accidents.
 
 [](https://opensource.org/licenses/MIT)
