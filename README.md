@@ -2,8 +2,12 @@
 
 A real-time drowsiness detection system built with Python, OpenCV, and Dlib. This application monitors a user's face via webcam to detect signs of fatigue, such as eye closure and yawning, and triggers an alarm to prevent accidents.
 
+[![GitHub stars](https://img.shields.io/github/stars/Aaiz-Am17/drowsiness-detection-system?style=social)](https://github.com/Aaiz-Am17/drowsiness-detection-system/stargazers)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+![Tkinter](https://img.shields.io/badge/Built%20with-Tkinter-FF69B4?logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Face%20Detection-green?logo=opencv)
+![Dlib](https://img.shields.io/badge/Dlib-Landmark%20Predictor-orange?logo=ai)
 
 -----
 
