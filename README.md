@@ -97,8 +97,9 @@ To run the application, execute the GUI script from your terminal:
 
 ```bash
 python drowsiness_gui.py
+```
 
 The system will start, open your webcam, and begin monitoring. To stop the program, you can either use the "Stop Detection" button in the GUI or press q while the video window is active.
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
